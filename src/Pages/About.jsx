@@ -20,7 +20,7 @@ import {
 import {
     Card,
     CardContent,
-  } from "../Components/ui/Card"
+  } from "../Components/ui/card"
 import { MY_PRJECTS } from "../Constants";
 function About() {
 
