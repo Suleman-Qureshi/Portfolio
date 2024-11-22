@@ -1,4 +1,4 @@
-import { NAV_LINKS } from '@/Constants';
+import { NAV_LINKS } from '../../Constants';
 import React from 'react'
 import { GiEnvelope } from "react-icons/gi";
 

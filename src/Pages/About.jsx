@@ -16,12 +16,12 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/Components/ui/Carousel";
+} from "../Components/ui/carousel";
 import {
     Card,
     CardContent,
-  } from "@/Components/ui/Card"
-import { MY_PRJECTS } from "@/Constants";
+  } from "../Components/ui/card"
+import { MY_PRJECTS } from "../Constants";
 function About() {
 
   return (
@@ -114,7 +114,7 @@ function About() {
                     <div className="w-full h-full flex flex-col justify-between">
                         <div className="w-full h-2/3 overflow-hidden"><img src={item.imgSrc} alt="PRoject_img" className="w-full h-full rounded-t-lg" /></div>
                         <div className="text-[#331C52] text-sm font-bold scale-75 max-md:scale-100 ">{(item.title.length>12)?item.title.slice(0,12)+"...":item.title}</div>
-                        <div className="text-[#331C52] text-xs scale-75 max-md:scale-100" title={item.description}>{(item.description.length>50)?item.description.slice(0,50)+"...":item.description}</div>
+                        <div className="text-[#331C52] text-xs scale-75 max-md:scale-100" title={item.description}>{(item.description.length>45)?item.description.slice(0,45)+"...":item.description}</div>
                         <a href={item.href} target="_blank" className="w-full">
                         <button className="text-white bg-[#331C52] rounded-md py-0.5 text-sm font-light tracking-wide w-full scale-75">VISIT</button>
                         </a>

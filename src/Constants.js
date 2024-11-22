@@ -26,7 +26,7 @@ export const MY_PRJECTS = [
     imgSrc:
       "https://suleman-qureshi.github.io/My-Portfolio/recources/mockups/real%20estate.png",
     title: "Real State",
-    description: "Real estate website is for growin hte busniss",
+    description: "Real estate website is for growin the busniss",
     href: "",
   },
   {
