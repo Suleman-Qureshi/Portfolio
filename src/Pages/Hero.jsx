@@ -15,8 +15,8 @@ import { BiLogoGmail } from 'react-icons/bi';
 function Hero() {
   return (
     <section id='Home' className="w-screen h-screen bg-gradient-to-r from-[#331C52] to-[#291C3A] heroSection max-lg:before:hidden relative overflow-x-hidden pt-16 pb-28 max-lg:py-16 px-24 max-lg:px-12 max-md:px-6 max-sm:px-1"> 
-    <div className='w-full h-full flex flex-col gap-3 justify-between max-lg:flex-row max-md:flex-col max-md:items-center'>
-    <div className='h-full flex flex-col gap-4 py-4 max-md:text-center'>
+    <div className='w-full h-full flex flex-col gap-3 justify-center max-lg:flex-row max-md:flex-col max-md:items-center'>
+    <div className='h-full flex flex-col gap-4 py-4 max-md:text-center justify-center'>
       <div className='text-3xl font-bold text-white'>Hello &#128075; </div>
       <div className='text-8xl max-lg:text-7xl text-[#8121D0] font-extrabold tracking-tight'>I'm a web <br />Developer</div>
       <div className='text-white text-xl font-medium tracking-wider'>I build things for web</div>
