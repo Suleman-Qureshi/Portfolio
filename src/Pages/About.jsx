@@ -16,11 +16,11 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/Components/ui/Carousel";
 import {
     Card,
     CardContent,
-  } from "@/components/ui/card"
+  } from "@/Components/ui/Card"
 import { MY_PRJECTS } from "@/Constants";
 function About() {
 
