@@ -47,6 +47,9 @@ function About() {
             My Primary Focus Is To Create Responsive,User-Friendly Experience
             That Meet The Needs Of A Diverse Online Audience
           </div>
+          <a href="../../public/CV/cv.pdf" download>
+          <button className="bg-[#331C52] text-white w-1/2 rounded-md py-1 px-4">Download my CV</button>
+          </a>
         </div>
       </div>
       <div className="w-full flex justify-end max-md:justify-start z-10">
