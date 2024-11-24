@@ -27,13 +27,13 @@ function About() {
   return (
     <section
       id="About"
-      className={`relative w-screen py-24 px-24 max-lg:px-12 max-md:px-6 max-sm:px-1 flex flex-col justify-between gap-12 bg-[#E1EBED] overflow-y-hidden`}
+      className={`relative w-screen py-20 px-24 max-lg:px-12 max-md:px-6 max-sm:px-1 flex flex-col justify-between gap-12 bg-[#E1EBED] overflow-y-hidden`}
     >
       <span className="w-[60rem] absolute -top-24 max-lg:-top-16 left-24 max-md:hidden">
         <img src={shader1} alt="Shader" className="w-full h-full z-0" />
         <div className="w-full h-full absolute bg-gradient-to-l from-transparent to-[#E1EBED] z-[1] top-0 left-0"></div>
       </span>
-      <span className="w-[60rem] absolute top-[27rem] max-lg:top-[28rem] right-0 max-md:hidden">
+      <span className="w-[60rem] absolute top-[28rem] max-lg:top-[29rem] right-0 max-md:hidden">
         <img src={shader2} alt="Shader" className="w-full h-full z-0" />
         <div className="w-full h-full absolute bg-gradient-to-l from-transparent to-[#E1EBED] z-[1] top-0 left-0"></div>
       </span>
@@ -48,11 +48,11 @@ function About() {
             That Meet The Needs Of A Diverse Online Audience
           </div>
           <a href="../../public/CV/cv.pdf" download>
-          <button className="bg-[#331C52] text-white w-1/2 rounded-md py-1 px-4">Download my CV</button>
+          <button className="bg-[#331C52] text-white w-[180px] max-sm:w-full rounded-md py-1 px-4">Download my CV</button>
           </a>
         </div>
       </div>
-      <div className="w-full flex justify-end max-md:justify-start z-10">
+      <div className="w-full flex justify-end max-md:justify-start z-10 -translate-y-6 max-lg:-translate-y-0">
         <div className="flex flex-col gap-4">
           <div id="Skills" className="text-2xl text-[#331C52] font-bold">
             My Skills
