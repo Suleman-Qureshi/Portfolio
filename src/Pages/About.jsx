@@ -29,7 +29,7 @@ function About() {
       id="About"
       className={`relative w-screen py-20 px-24 max-lg:px-12 max-md:px-6 max-sm:px-1 flex flex-col justify-between gap-12 bg-[#E1EBED] overflow-y-hidden`}
     >
-      <span className="w-[60rem] absolute -top-24 max-lg:-top-16 left-24 max-md:hidden">
+      <span className="w-[60rem] absolute -top-24 max-lg:-top-16 max-xl:left-24 left-60 max-md:hidden">
         <img src={shader1} alt="Shader" className="w-full h-full z-0" />
         <div className="w-full h-full absolute bg-gradient-to-l from-transparent to-[#E1EBED] z-[1] top-0 left-0"></div>
       </span>
@@ -47,7 +47,7 @@ function About() {
             My Primary Focus Is To Create Responsive,User-Friendly Experience
             That Meet The Needs Of A Diverse Online Audience
           </div>
-          <a href="../../public/cv.pdf" download="Suleman's CV">
+          <a href="../../public/cv.pdf" type="pdf" download="Suleman's CV">
           <button className="bg-[#331C52] text-white w-[180px] max-sm:w-full rounded-md py-1 px-4">Download my CV</button>
           </a>
         </div>
@@ -110,7 +110,7 @@ function About() {
         <Carousel className="w-full max-sm:w-2/3 max-sm:translate-x-12 max-w-sm scale-150 max-md:scale-100 translate-y-14 max-lg:translate-y-20 translate-x-24 max-md:translate-y-0 max-lg:translate-x-32 max-md:translate-x-6">
       <CarouselContent className="-ml-1 w-full">
         {MY_PRJECTS.map((item) => (
-          <CarouselItem key={item.project} className="pl-1 md:basis-1/2 lg:basis-1/3 w-full">
+          <CarouselItem key={item.project} className="pl-1 md:basis-1/2 lg:basis-1/3 w-full ">
             <div className="p-1 w-full">
               <Card className="h-52 max-lg:h-60 max-md:h-full w-full">
                 <CardContent className="flex aspect-square items-center justify-between px-0.5 pt-0.5 rounded-lg w-full h-full">
