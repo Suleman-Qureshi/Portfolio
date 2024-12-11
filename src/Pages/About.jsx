@@ -47,8 +47,8 @@ function About() {
             My Primary Focus Is To Create Responsive,User-Friendly Experience
             That Meet The Needs Of A Diverse Online Audience
           </div>
-          <a href="../../public/cv.pdf" type="pdf" download="Suleman's CV">
-          <button className="bg-[#331C52] text-white w-[180px] max-sm:w-full rounded-md py-1 px-4">Download my CV</button>
+          <a href="https://github.com/Suleman-Qureshi/Portfolio/blob/main/public/cv.pdf" download="Suleman's CV">
+          <button className="bg-[#331C52] text-white w-[180px] max-sm:w-full rounded-md py-1 px-4">my CV</button>
           </a>
         </div>
       </div>
