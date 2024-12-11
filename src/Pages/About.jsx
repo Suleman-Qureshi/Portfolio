@@ -5,7 +5,7 @@ import cssLogo from "../assets/cssLogo.png";
 import reactLogo from "../assets/reactLogo.png";
 import reduxLogo from "../assets/reduxLogo.png";
 import nextLogo from "../assets/nextLogo.png";
-import winLogo from "../assets/winLogo.png";
+import wordpresslogo from "../assets/wordpress.png";
 import vscodeLogo from "../assets/vscodeLogo.png";
 import tailwindLogo from "../assets/tailwindLogo.png";
 import shader1 from "../assets/shader_1.png";
@@ -86,7 +86,7 @@ function About() {
                 <img src={vscodeLogo} alt="JavaScript_Logo" className="h-10" />
               </div>
               <div className="h-12 w-12 flex justify-center items-center bg-[#331C52] rounded-md">
-                <img src={winLogo} alt="JavaScript_Logo" className="h-10" />
+                <img src={wordpresslogo} alt="JavaScript_Logo" className="h-10 invert" />
               </div>
               <div className="h-12 w-12 flex justify-center items-center bg-[#331C52] rounded-md">
                 <img src={vscodeLogo} alt="JavaScript_Logo" className="h-10" />
@@ -115,7 +115,7 @@ function About() {
               <Card className="h-52 max-lg:h-60 max-md:h-full w-full">
                 <CardContent className="flex aspect-square items-center justify-between px-0.5 pt-0.5 rounded-lg w-full h-full">
                     <div className="w-full h-full flex flex-col justify-between">
-                        <div className="w-full h-2/3 overflow-hidden"><img src={item.imgSrc} alt="PRoject_img" className="w-full h-full rounded-t-lg" /></div>
+                        <div className="w-full h-2/3 overflow-hidden"><img src={item.imgSrc} alt="Project_img" className="w-full h-full rounded-t-lg" /></div>
                         <div className="text-[#331C52] text-sm font-bold scale-75 max-md:scale-100 ">{(item.title.length>12)?item.title.slice(0,12)+"...":item.title}</div>
                         <div className="text-[#331C52] text-xs scale-75 max-md:scale-100" title={item.description}>{(item.description.length>45)?item.description.slice(0,45)+"...":item.description}</div>
                         <a href={item.href} target="_blank" className="w-full">
