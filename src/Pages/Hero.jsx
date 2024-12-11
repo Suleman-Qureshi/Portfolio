@@ -14,14 +14,14 @@ import tailwindLogo from '../assets/tailwindLogo.png'
 import { BiLogoGmail } from 'react-icons/bi';
 function Hero() {
   return (
-    <section id='Home' className="w-screen h-screen bg-gradient-to-r from-[#331C52] to-[#291C3A] max-lg:before:h-screen heroSection max-md:before:bottom-0 max-md:before:translate-x-1/2 max-md:before:right-1/2 max-md:before:h-80 max-md:before:w-1/2 relative overflow-x-hidden pt-16 pb-28 max-lg:py-16 px-24 max-lg:px-12 max-md:px-6 max-sm:px-1 max-sm:before:w-2/3"> 
+   <section id='Home' className="w-screen h-screen bg-gradient-to-r from-[#331C52] to-[#291C3A] max-lg:before:h-screen heroSection max-md:before:bottom-0 max-md:before:translate-x-1/2 max-md:before:right-1/2 max-md:before:h-80 max-md:before:w-1/2 relative overflow-x-hidden pt-16 pb-28 max-lg:py-16 px-24 max-lg:px-12 max-md:px-6 max-sm:px-1 max-sm:before:w-2/3"> 
     <div className='w-full h-full flex flex-col gap-3 justify-center max-md:flex-col max-md:items-center'>
-    <div className='h-full flex flex-col gap-4 py-4 max-md:text-center justify-center '>
+    <div className='h-full flex flex-col gap-4 py-4 max-md:text-center justify-center'>
       <div className='text-3xl font-bold text-white'>Hello &#128075; </div>
       <div className='text-8xl max-lg:text-7xl text-[#8121D0] font-extrabold tracking-tight'>I'm a web <br />Developer</div>
       <div className='text-white text-xl font-medium tracking-wider'>I build things for web</div>
       </div>
-      <div className='flex gap-4 px-2 max-lg:h-full max-lg:py-8 max-md:py-0 max-lg:gap-6'>
+      <div className='flex gap-4 px-2 max-lg:flex-col max-md:flex-row max-lg:h-full max-lg:py-8 max-md:py-0 max-lg:gap-6'>
         <a href="https://www.instagram.com/dezignspectrum?igsh=MXF0Zm9mMWlvcWtuNQ==" target='_blank'>
       <TbBrandGithubFilled className='text-[#331C52] bg-[#8121D0] hover:text-[#DCCFED] duration-200 w-9 h-9 p-1.5 rounded-full cursor-pointer' />
         </a>

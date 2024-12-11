@@ -29,7 +29,7 @@ function About() {
       id="About"
       className={`relative w-screen py-20 px-24 max-lg:px-12 max-md:px-6 max-sm:px-1 flex flex-col justify-between gap-12 bg-[#E1EBED] overflow-y-hidden`}
     >
-      <span className="w-[60rem] absolute -top-24 max-lg:-top-16 max-xl:left-24 left-60 max-md:hidden">
+      <span className="w-[60rem] absolute -top-24 max-lg:-top-16 left-24 max-md:hidden">
         <img src={shader1} alt="Shader" className="w-full h-full z-0" />
         <div className="w-full h-full absolute bg-gradient-to-l from-transparent to-[#E1EBED] z-[1] top-0 left-0"></div>
       </span>
