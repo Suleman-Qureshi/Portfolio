@@ -37,7 +37,6 @@ function About() {
         <img src={shader2} alt="Shader" className="w-full h-full z-0" />
         <div className="w-full h-full absolute bg-gradient-to-l from-transparent to-[#E1EBED] z-[1] top-0 left-0"></div>
       </span>
-
       <div className="w-full flex items-start z-10">
         <div className="flex flex-col gap-4 w-1/3 max-lg:w-1/2 max-md:w-full">
           <div className="text-2xl text-[#331C52] font-bold">About me</div>

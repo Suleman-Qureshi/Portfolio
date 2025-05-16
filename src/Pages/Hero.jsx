@@ -42,7 +42,7 @@ function Hero() {
       <div>YEARS OF <br/>EXPERIENCE</div>
      </div>
      <div className='flex gap-1 text-sm items-center'>
-      <div className='text-5xl'>4</div>
+      <div className='text-5xl'>6</div>
       <div>PROJECTS COMPLETED<br/>AROUND THE WORLD</div>
      </div>
      <div className='flex gap-4 items-center max-lg:w-[485px] '>
