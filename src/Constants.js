@@ -8,7 +8,7 @@ export const MY_PRJECTS = [
   {
     project: 1,
     imgSrc:
-      "../assets/mockups/logsols.png",
+      "https://github.com/Suleman-Qureshi/Portfolio/blob/main/src/assets/mockups/logsols.png?raw=true",
     title: "Logsols.com",
     description: "Logistics solutions company offering diverse services with professional excellence.",
     href: "https://www.logsols.com/",
